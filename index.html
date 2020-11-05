@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog template</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9e691a252b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo-container">
+            <h1>Blog<b>template</b></h1>
+        </div>
+
+        <nav class="personal-links">
+            <button onclick="toggleSearchInputVisibility()">
+                <i class="fa fa-search"></i>
+            </button>
+            <div class="">
+                <input type="text">
+            </div>
+            <a href="#">About</a>
+            <a href="#">Cooperation</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <nav class="redirect-links">
+            <button onclick="toggleLinksVisibility()">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="">
+                <a href="#">Nature</a>
+                <a href="#">People</a>
+                <a href="#">Trips</a>
+                <a href="#">Animals</a>
+                <a href="#">Fashion</a>
+                <a href="#">Tech</a>
+                <a href="#">Tech</a>
+                <button>
+                    <i class="fa fa-ellipsis-h"></i>
+                </button>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="presentation-section">
+            <img src="https://images.unsplash.com/photo-1604186838309-c6715f0d3e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&q=80" alt="user avatar" />
+            <h1>Maecenas quis lobortis nunc. Nullam sit vel odio congue vulputate a ut nisi</h1>
+
+            <footer>
+                <span class="people">
+                    People
+                </span>
+                <p>01 november 2020 | <a href="#">IgorIa</a></p>
+            </footer>
+
+        </section>
+
+        <section class="contents">
+            <div class="grey-card-wrapper">
+                <div class="grey-card-group">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1566935727941-4f63db037eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                        <span class="trip">Trips</span>
+                        <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                        <footer>
+                            <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                        </footer>
+                    </div>
+
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1593640495390-1ff7c3f60e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" />
+                        <span class="tech">Tech</span>
+                        <h4>Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi</h4>
+                        <footer>
+                            <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-cards">
+                <div>
+                    <h2>Proin congue elit fringila</h2>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <span class="trip">Trips</span>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1604180540768-78abbc4ab189?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                    <span class="nature">Nature</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1601622631179-029ad74e1671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80" />
+                    <span class="people">People</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                    <span class="tech">Tech</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1603736115415-fd1f3473291f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                    <span class="trip">Trips</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1600352414808-d9acc613f906?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                    <span class="trip">Trips</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1597067636168-7eb3baabc8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                    <span class="fashion">Fashion</span>
+                    <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                    <footer>
+                        <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="grey-card-wrapper">
+                <div class="grey-card-group">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1604142056225-1feabdac3af1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80" />
+                        <span class="trip">Trips</span>
+                        <h4>Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.</h4>
+                        <footer>
+                            <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                        </footer>
+                    </div>
+
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                        <span class="tech">Tech</span>
+                        <h4>Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi</h4>
+                        <footer>
+                            <p>01 november 2020 | <a href="#">IgorIa</a></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <h2>Newsletter</h2>
+                <h4>Donec elementum dui semper, pretium dui quis, pretium nisl</h4>
+                <div class="signup-wrapper">
+                    <input type="text" maxlength="41" />
+                    <button type="button">Sign up</button>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="page-footer">
+            <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes, nacetur ridiculus mus.
+            </p>
+            <p>Try awsome tool for designers <b>symus.so</b></p>
+        </footer>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

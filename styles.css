@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+
+.trip {
+    background-color: deeppink;
+}
+
+.tech {
+    background-color: black;
+}
+
+.people {
+    background-color: #0E6DDF;
+}
+
+.nature {
+    background-color: green;
+}
+
+.fashion {
+    background-color: purple;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+header div.logo-container {
+    float: left;
+
+    padding: 16px 20px 16px 15%;
+    background-color: #0E69DF;
+}
+
+header div.logo-container h1 {
+    width: 100%;
+    text-align: right;
+
+    color: #FFF;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+header div.logo-container h1 b {
+    padding-left: 8px;
+}
+
+header nav.personal-links {
+    float: left;
+}
+
+
+header nav.personal-links div {
+    position: absolute;
+    padding-top: 20px;
+    top: 55px;
+
+    width: 0px;
+    transition: width 0.55s;
+    overflow: hidden;
+}
+
+header nav.personal-links div input {
+    padding: 16px 20px;
+    width: 100%;
+
+    outline: none;
+    border: none;
+    background-color: #959ba1;
+    border-radius: 10px;
+}
+
+header nav.personal-links div.active {
+    width: 250px;
+}
+
+header nav.personal-links a {
+    float: left;
+    padding: 21px 10px;
+
+    color: #ABB2B9;
+    transition: background 0.2s;
+}
+
+header nav.personal-links a:hover {
+    background-color: #f4f4f4;
+}
+
+header nav.personal-links button {
+    float: left;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #eee;
+    color: #aaa;
+
+    padding: 23px 20px;
+
+    transition: background 0.2s;
+}
+
+header nav.personal-links button:hover {
+    background-color: #e1e1e1;
+}
+
+
+header nav.redirect-links {
+    float: right;
+    margin-right: 10%;
+}
+
+header nav.redirect-links div {
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+
+    height: 0px;
+
+    transition: height 0.5s;
+}
+
+header nav.redirect-links div.active {
+    height: 470px;
+}
+
+header nav.redirect-links div a {
+    display: block;
+    padding: 20px 40px;
+
+
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #FFF;
+
+    text-align: center;
+}
+
+header nav.redirect-links div a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+header nav.redirect-links button {
+    border: none;
+    cursor: pointer;
+    background-color: #FFF;
+    outline: none;
+    color: #0000FF;
+
+    padding: 23px 20px;
+}
+
+header nav.redirect-links div button {
+    padding: 20px 62px;
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header nav.redirect-links div button:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+main {
+    font-family: Roboto;
+}
+
+main section.presentation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+
+    width: 100%;
+    height: 600px;
+
+    background-size: 100% 100%;
+    background-image: url("https://images.unsplash.com/photo-1598429356677-94728859c102?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+main section.presentation-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+main section.presentation-section h1 {
+    width: 600px;
+    text-align: center;
+    font-family: Poppins;
+    color: #FFF;
+}
+
+main section.presentation-section footer {
+    display: flex;
+    column-gap: 400px;
+    position: relative;
+    bottom: -80px;
+}
+
+main section.presentation-section footer span.people {
+    font-weight: bold;
+    color: #FFF;
+    border: none;
+
+    padding: 10px 18px;
+}
+
+main section.presentation-section footer p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+main section.presentation-section footer p a {
+    color: blue;
+}
+
+main section.contents div.grey-card-wrapper {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 40px 0px;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div {
+    position: relative;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div h4 {
+    margin: 10px 0px;
+    font-weight: normal;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div footer p {
+    font-size: 14px;
+    color: #959ba1;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div footer p a {
+    text-decoration-line: underline;
+    color: blue;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div span {
+    position: absolute;
+    left: 0;
+    bottom: 95px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 14px 10px 20px;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div {
+    flex: 1 1 250px;
+}
+
+main section.contents div.grey-card-wrapper div.grey-card-group div img {
+    width: 100%;
+    height: 190px;
+}
+
+main section.contents div.middle-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    column-gap: 20px;
+    padding: 40px 0px;
+}
+
+main section.contents div.middle-cards div:first-child {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 290px;
+
+    background-image: url("https://images.unsplash.com/photo-1601116780183-d2e80a0bd47f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    color: #fff;
+}
+
+main section.contents div.middle-cards div:first-child h2 {
+    font-size: 26px;
+    line-height: 40px;
+}
+
+main section.contents div.middle-cards div:first-child h4 {
+    max-width: 400px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main section.contents div.middle-cards div:first-child footer {
+    width: 100%;
+    position: absolute;
+    bottom: 24px;
+    padding-right: 24px;
+}
+
+main section.contents div.middle-cards div:first-child footer span.trip {
+    padding: 10px 16px;
+}
+
+
+main section.contents div.middle-cards div:first-child footer p {
+    float: right;
+    color: #959ba1;
+    font-size: 12px;
+}
+
+main section.contents div.middle-cards div:first-child footer a {
+    color: blue;
+}
+
+
+main section.contents div.middle-cards div:first-child img {
+    width: 100%;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) {
+    position: relative;
+    margin: 30px 0px;
+    flex: 1 1 250px;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) h4 {
+    font-weight: normal;
+    padding: 8px 5px;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) footer p {
+    color: #ABB2B9;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) footer p a {
+    color: blue;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) span {
+    position: absolute;
+    left: 0;
+    bottom: 105px;
+    padding: 10px 16px;
+
+    color: #FFF;
+}
+
+main section.contents div.middle-cards div:nth-child(n + 2) img {
+    width: 100%;
+}
+
+main section.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+
+    background-color: #0E69DF;
+}
+
+main section.newsletter div.newsletter-container {
+    position: relative;
+}
+
+main section.newsletter div.newsletter-container h2 {
+    text-align: center;
+    color: #fff;
+    line-height: 55px;
+    font-size: 38px;
+}
+
+main section.newsletter div.newsletter-container h4 {
+    text-align: center;
+    font-weight: normal;
+    color: rgba(202, 196, 196, 0.75);
+    margin-bottom: 40px;
+}
+
+main section.newsletter div.newsletter-container div.signup-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+main section.newsletter div.newsletter-container div.signup-wrapper input {
+    width: 400px;
+    height: 35px;
+    padding-left: 15px;
+
+    background-color: #4784C2;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+main section.newsletter div.newsletter-container div.signup-wrapper button {
+    height: 35px;
+    padding: 0px 20px;
+
+    position: absolute;
+    right: 12px;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    font-weight: bold;
+    color: #0981CF;
+}
+
+main footer.page-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 90px 0px;
+}
+
+main footer.page-footer p {
+    max-width: 600px;
+    text-align: center;
+    line-height: 30px;
+
+    color: #ABB2B9;
+}
+
+@media screen and (max-width: 1110px) {
+
+    header nav.personal-links div {
+        top: 130px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    header div.logo-container {
+        padding: 0;
+        display: block;
+        float: none;
+    }
+
+    header div.logo-container h1 {
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    header nav.redirect-links {
+        margin-right: 0;
+    }
+
+    header nav.redirect-links div {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    main section.presentation-section h1 {
+        font-size: 18px;
+        width: 500px;
+    }
+
+    main section.presentation-section footer {
+        column-gap: 300px;
+    }
+
+    main section.contents div.grey-card-wrapper div.grey-card-group div {
+        padding: 20px;
+    }
+
+    main section.contents div.grey-card-wrapper div.grey-card-group div span {
+        bottom: 115px;
+        left: 20px;
+    }
+
+    main section.contents div.middle-cards {
+        padding: 20px;
+    }
+}
